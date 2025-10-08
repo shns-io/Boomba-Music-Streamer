@@ -10,8 +10,10 @@ Whether it's Afrobeats, R&B, Pop or Trap — Boomba FM  has got you covered!
 The Music Player brings the tunes to you, organised by genre and artist, with satisfying user friendly controls.
 
 # Objectives
-1.To expand Boomba FM operations by developing a desktop music streaming service. 
+1.To expand Boomba FM operations by developing a desktop music streaming service.
+
 2.The application allows listeners to select, play and pause songs. 
+
 3.Organise the songs by genre and artist through a search function.
 
  # Features
