@@ -8,3 +8,10 @@ This desktop music player enables users explore, search, and enjoy their favouri
 
 Whether it's Afrobeats, R&B, Pop or Trap — Boomba FM  has got you covered!
 The Music Player brings the tunes to you, organised by genre and artist, with satisfying user friendly controls.
+
+ # Features
+Play & Pause: Stream your favourite tracks seamlessly.
+Artist and Genre Filter: Search and explore music by your favourite artist and/or genre.
+Search Function: Find songs quickly by typing an artist or genre.
+User friendly Interface: Simple, elegant, and easy to navigate.
+
