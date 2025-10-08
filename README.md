@@ -46,7 +46,10 @@ User friendly Interface: Simple, elegant, and easy to navigate.
  # Team
  Developed by: Group four
  
- Institution: BBIT-July 2025 mini project
+ Institution: Strathmore University
+ 
+ Programme: BBIT-July 2025 mini project
+ 
 
  # Technologies used
  Programming Language- Python
@@ -56,6 +59,7 @@ User friendly Interface: Simple, elegant, and easy to navigate.
  Audio handling- pygame
 
  IDE Used- Visual Studio Code
+
 
 
 
