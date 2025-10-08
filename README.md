@@ -18,5 +18,21 @@ Artist and Genre Filter: Search and explore music by your favourite artist and/o
 
 Search Function: Find songs quickly by typing an artist or genre.
 
-User friendly Interface: Simple, elegant, and easy to navigate.
+User friendly Interface: Simple, elegant, and easy to navigate.  
+
+ #How to Use
+
+ Step 1: Launch the app.
+ Step 2: Add songs to your Boomba playlist, either one or several.
+ Step 3 : Select a song to play.
+ Step 4 : Navigate as freerly as you want  using play , pause, stop , replay and next button.
+ Step 5: Delete  the unwanted song(s) , using the delete function.
+ Step 6: According to your mood ,search for a desired artist or genre.
+ Step 6 :Click search to display .
+
+
+
+ 
+ 
+ 
 
