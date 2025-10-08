@@ -43,8 +43,19 @@ User friendly Interface: Simple, elegant, and easy to navigate.
  
  Step 6 :Click search to display.
 
+ # Team
+ Developed by: Group four
+ 
+ Institution: BBIT-July 2025 mini project
 
- # 
+ # Technologies used
+ Programming Language- Python
+
+ GUI Framework-Tkinter
+
+ Audio handling- pygame
+
+ IDE Used- Visual Studio Code
 
 
 
