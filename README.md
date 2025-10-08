@@ -12,6 +12,8 @@ The Music Player brings the tunes to you, organised by genre and artist, with sa
  # Features
 Play & Pause: Stream your favourite tracks seamlessly.
 
+Rewind and forward options: enables the user to rewind songs and skip a to play the next one
+
 Artist and Genre Filter: Search and explore music by your favourite artist and/or genre.
 
 Search Function: Find songs quickly by typing an artist or genre.
