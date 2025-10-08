@@ -7,8 +7,6 @@ root = tk.Tk()
 root.title("Boomba Music Streamer")
 root.geometry("500x450")
 
-
-
 # The title card
 title_label = tk.Label(root, text="~♕𝓜𝔂 𝓑𝓸𝓸𝓶𝓫𝓪 𝓟𝓵𝓪𝔂𝓵𝓲𝓼𝓽 ♕~", font=("Forte", 40, "bold"), fg="#000000")
 title_label.pack(pady=10)
@@ -18,7 +16,7 @@ pygame.mixer.init()
 # Search bar 
 search_var = tk.StringVar()
 
-search_frame = tk.Frame(root, bg="#e0e0e0")  # Light gray background
+search_frame = tk.Frame(root)
 search_frame.pack(pady=10)
 
 tk.Label(
@@ -41,6 +39,7 @@ search_entry = tk.Entry(
 )
 search_entry.pack(side=tk.LEFT, padx=5)
 
+#styling the search and show all button
 search_btn_style = {
 
     "bg": "#537353",   
@@ -60,7 +59,7 @@ show_all_btn_style = {
     "relief": tk.RAISED,  
         "bd": 3  }
 
-
+#define the search and show all function
 def search():
     query = search_var.get().lower()
     songlist_box.delete(0, tk.END )
@@ -274,3 +273,4 @@ slider_label = tk.Label(root, text="0")
 slider_label.pack(pady=20)
 
 root.mainloop()
+
