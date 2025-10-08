@@ -58,7 +58,7 @@ User friendly Interface: Simple, elegant, and easy to navigate.
 
  Audio handling- pygame
 
- IDE Used- Visual Studio Code
+ IDE used- Visual Studio Code
 
 
 
