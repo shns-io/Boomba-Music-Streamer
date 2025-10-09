@@ -246,8 +246,8 @@ forward_btn = tk.Button(contol_frame, text="Next >>", command=next_song, **butto
 back_btn.grid(row=0, column=0, padx=10)	
 pause_btn.grid(row=0, column=3, padx=10)
 play_btn.grid(row=0, column=2, padx=10) 
-stop_btn.grid(row=0, column=4, padx=10)
-forward_btn.grid(row=0, column=1, padx=10)
+stop_btn.grid(row=0, column=1, padx=10)
+forward_btn.grid(row=0, column=4, padx=10)
 
 #menubar
 a_menu = tk.Menu(root, fg="#768676")
@@ -273,6 +273,7 @@ slider_label = tk.Label(root, text="0")
 slider_label.pack(pady=20)
 
 root.mainloop()
+
 
 
 
