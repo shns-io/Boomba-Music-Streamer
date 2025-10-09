@@ -82,7 +82,7 @@ all_songs = []
 #using file dialog do play songs
 def add_song():
     song = filedialog.askopenfilename(initialdir="songs/", title="Choose A Song", filetypes=(("mp3 Files", "*.mp3"), ))
-    song = song.replace("C:/Users/smmba/OneDrive/Documents/Visual Studio Code/Python/songs/", "")
+    song = song.replace("C:/Users/smmba/OneDrive/Documents/Visual Studio Code/Boomba Music Player/Python/songs/", "")
     song = song.replace(".mp3", "")
 
     songlist_box.insert(tk.END, song)
@@ -93,7 +93,7 @@ def add_song():
 def add_many_songs():   
     songs = filedialog.askopenfilenames(initialdir="songs/", title="Choose Many Songs", filetypes=(("mp3 Files", "*.mp3"), ))
     for song in songs:
-        song = song.replace("C:/Users/smmba/OneDrive/Documents/Visual Studio Code/Python/songs/", "")#preventing the long song path from being displayed
+        song = song.replace("C:/Users/smmba/OneDrive/Documents/Visual Studio Code/Boomba Music Player/Python/songs/", "")#preventing the long song path from being displayed
         song = song.replace(".mp3", "")#removing the mp3 part as well
         songlist_box.insert(tk.END, song)
         all_songs.append(song)  # Add to all_songs list
@@ -104,7 +104,7 @@ current_song_length = 0
 #Defining the play function
 def play():
     song = songlist_box.get(tk.ACTIVE)
-    song_path = f"C:/Users/smmba/OneDrive/Documents/Visual Studio Code/Python/songs/{song}.mp3"
+    song_path = f"C:/Users/smmba/OneDrive/Documents/Visual Studio Code/Boomba Music Player/Python/songs/{song}.mp3"
     pygame.mixer.music.load(song_path)
     pygame.mixer.music.play(loops=0)
     global current_song_length
@@ -162,7 +162,7 @@ def next_song():
     next_one = next_one[0] + 1
 
     song = songlist_box.get(next_one) #whatever number the song is, get it from the playlist
-    song = f"C:/Users/smmba/OneDrive/Documents/Visual Studio Code/Python/songs/{song}.mp3" #the full song path
+    song = f"C:/Users/smmba/OneDrive/Documents/Visual Studio Code/Boomba Music Player/Python/songs/{song}.mp3" #the full song path
     #load and play song
     pygame.mixer.music.load(song)
     pygame.mixer.music.play(loops=0)
@@ -180,7 +180,7 @@ def previous_song():
     next_one = next_one[0] -1
 
     song = songlist_box.get(next_one) #wtv number the song is, get it from the playlist
-    song = f"C:/Users/smmba/OneDrive/Documents/Visual Studio Code/Python/songs/{song}.mp3" #the song path
+    song = f"C:/Users/smmba/OneDrive/Documents/Visual Studio Code/Boomba Music Player/Python/songs/{song}.mp3" #the song path
     #load and play song
     pygame.mixer.music.load(song)
     pygame.mixer.music.play(loops=0)
@@ -273,5 +273,6 @@ slider_label = tk.Label(root, text="0")
 slider_label.pack(pady=20)
 
 root.mainloop()
+
 
 
